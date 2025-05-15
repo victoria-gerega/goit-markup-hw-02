@@ -12,17 +12,41 @@ a {
   text-decoration: none;
 }
 
-.accent {
+p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
+
 .header {
+  background-color: #ffffff;
 }
 .header-navigation {
+}
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ea5;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.accent {
+  font-family: 'Raleway', sans-serif;
+  color: #2e2f42;
 }
 .header-list {
 }
 .header-item {
+  color: #2e2f42;
+  font-weight: 500;
 }
 .header-link {
+  color: #2e2f42;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
 }
 .contacts {
 }
@@ -31,8 +55,24 @@ a {
 .contact-item {
 }
 .contact-mail {
+  font-family: 'Roboto', sans-serif;
+  color: #434445;
+  font-weight: 400;
+  font-size: 16px;
+}
+.contact-mail:hover,
+.contact-mail:focus {
+  color: #404bbf;
 }
 .contact-number {
+  font-family: 'Roboto', sans-serif;
+  color: #434445;
+  font-weight: 400;
+  font-size: 16px;
+}
+.contact-number:hover,
+.contact-number:focus {
+  color: #404bbf;
 }
 .slogan {
   background-color: #2e2f42;
@@ -41,7 +81,9 @@ a {
   color: #ffffff;
 }
 .buy-btn {
+  font-family: 'Roboto', sans-serif;
   color: #ffffff;
+  background-color: #4d5ea5;
 }
 .features {
 }
@@ -52,10 +94,14 @@ a {
 .features-item {
 }
 .features-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
 }
 .features-text {
 }
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
 }
@@ -64,6 +110,10 @@ a {
 .team-item {
 }
 .team-member {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
 }
 .team-description {
 }
@@ -74,12 +124,28 @@ a {
 .cases-item {
 }
 .cases-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
 }
 .cases-description {
 }
 .footer {
+  background-color: #2e2f42;
 }
 .footer-logo {
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ea5;
+  font-weight: 700;
+  font-size: 18px;
+}
+.footer-accent {
+  font-family: 'Raleway', sans-serif;
+  color: #f4f4fd;
+  font-weight: 700;
+  font-size: 18px;
 }
 .footer-text {
+  color: #f4f4fd;
 }
