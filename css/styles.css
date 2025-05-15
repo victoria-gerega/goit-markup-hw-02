@@ -1,0 +1,85 @@
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.accent {
+}
+.header {
+}
+.header-navigation {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+}
+.contacts {
+}
+.contacts-list {
+}
+.contact-item {
+}
+.contact-mail {
+}
+.contact-number {
+}
+.slogan {
+  background-color: #2e2f42;
+}
+.slogan-name {
+  color: #ffffff;
+}
+.buy-btn {
+  color: #ffffff;
+}
+.features {
+}
+.visually-hidden {
+}
+.features-list {
+}
+.features-item {
+}
+.features-subtitle {
+}
+.features-text {
+}
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-member {
+}
+.team-description {
+}
+.cases {
+}
+.cases-list {
+}
+.cases-item {
+}
+.cases-name {
+}
+.cases-description {
+}
+.footer {
+}
+.footer-logo {
+}
+.footer-text {
+}
