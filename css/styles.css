@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -38,11 +38,10 @@ p {
 .header-list {
 }
 .header-item {
-  color: #2e2f42;
-  font-weight: 500;
 }
 .header-link {
   color: #2e2f42;
+  font-weight: 500;
 }
 .header-link:hover,
 .header-link:focus {
@@ -84,10 +83,22 @@ p {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   background-color: #4d5ea5;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.buy-btn:hover,
+.buy-btn:focus {
+  background-color: #404bbf;
 }
 .features {
 }
 .visually-hidden {
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 .features-list {
 }
@@ -96,6 +107,7 @@ p {
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
   color: #2e2f42;
 }
 .features-text {
