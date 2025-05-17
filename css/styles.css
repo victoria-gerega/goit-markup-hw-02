@@ -20,8 +20,6 @@ p {
 .header {
   background-color: #ffffff;
 }
-.header-navigation {
-}
 .header-logo {
   font-family: 'Raleway', sans-serif;
   color: #4d5ea5;
@@ -33,11 +31,12 @@ p {
 }
 .accent {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: #2e2f42;
-}
-.header-list {
-}
-.header-item {
 }
 .header-link {
   color: #2e2f42;
@@ -46,12 +45,6 @@ p {
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
-}
-.contacts {
-}
-.contacts-list {
-}
-.contact-item {
 }
 .contact-mail {
   font-family: 'Roboto', sans-serif;
@@ -91,8 +84,6 @@ p {
 .buy-btn:focus {
   background-color: #404bbf;
 }
-.features {
-}
 .visually-hidden {
   height: 1px;
   overflow: hidden;
@@ -100,48 +91,43 @@ p {
   white-space: nowrap;
   width: 1px;
 }
-.features-list {
-}
-.features-item {
-}
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   color: #2e2f42;
 }
 .features-text {
+  line-height: 1.5;
 }
 .team {
   background-color: #f4f4fd;
 }
 .team-title {
-}
-.team-list {
-}
-.team-item {
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.1111;
+  text-transform: capitalize;
 }
 .team-member {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   color: #2e2f42;
 }
 .team-description {
+  line-height: 1.5;
 }
 .cases {
-}
-.cases-list {
-}
-.cases-item {
+  font-size: 36px;
+  line-height: 1.1111;
+  color: #2e2f42;
 }
 .cases-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   color: #2e2f42;
 }
 .cases-description {
+  line-height: 1.5;
 }
 .footer {
   background-color: #2e2f42;
@@ -151,13 +137,20 @@ p {
   color: #4d5ea5;
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.6667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .footer-accent {
   font-family: 'Raleway', sans-serif;
   color: #f4f4fd;
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.6667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .footer-text {
   color: #f4f4fd;
+  line-height: 1.5;
 }
