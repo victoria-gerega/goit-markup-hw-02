@@ -19,6 +19,8 @@ p {
 
 .header {
   background-color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-logo {
   font-family: 'Raleway', sans-serif;
@@ -41,27 +43,27 @@ p {
 .header-link {
   color: #2e2f42;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
 }
-.contact-mail {
+.contact-item > a {
   font-family: 'Roboto', sans-serif;
-  color: #434445;
+  font-style: normal;
+  color: #434455;
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .contact-mail:hover,
 .contact-mail:focus {
   color: #404bbf;
 }
-.contact-number {
-  font-family: 'Roboto', sans-serif;
-  color: #434445;
-  font-weight: 400;
-  font-size: 16px;
-}
+
 .contact-number:hover,
 .contact-number:focus {
   color: #404bbf;
@@ -71,6 +73,10 @@ p {
 }
 .slogan-name {
   color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .buy-btn {
   font-family: 'Roboto', sans-serif;
@@ -78,6 +84,7 @@ p {
   background-color: #4d5ea5;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 .buy-btn:hover,
@@ -95,9 +102,10 @@ p {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .features-text {
-  line-height: 1.5;
+  color: #434455;
 }
 .team {
   background-color: #f4f4fd;
@@ -106,28 +114,40 @@ p {
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.1111;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .team-member {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .team-description {
-  line-height: 1.5;
+  color: #434455;
+}
+.portfolio {
+  background-color: #ffffff;
 }
 .cases {
   font-size: 36px;
   line-height: 1.1111;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
+
 .cases-name {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .cases-description {
-  line-height: 1.5;
+  color: #434455;
 }
 .footer {
   background-color: #2e2f42;
@@ -137,7 +157,7 @@ p {
   color: #4d5ea5;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.6667;
+  line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -146,11 +166,10 @@ p {
   color: #f4f4fd;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.6667;
+  line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-text {
   color: #f4f4fd;
-  line-height: 1.5;
 }
